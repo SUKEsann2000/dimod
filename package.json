@@ -1,0 +1,27 @@
+{
+  "name": "dimod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUKEsann2000/dimod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SUKEsann2000/dimod/issues"
+  },
+  "homepage": "https://github.com/SUKEsann2000/dimod#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.5"
+  }
+}

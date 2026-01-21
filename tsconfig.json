@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "esnext",
+
+    "types": ["node"],
+
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+
+    "baseUrl": ".",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+
+    "tsBuildInfoFile": "./.cache/ts/.tsbuildinfo",
+
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "incremental": true,
+  }
+}
